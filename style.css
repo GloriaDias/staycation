@@ -1,0 +1,174 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+.menu{
+    background-color: #d2e0fe;
+}
+.brandlogo{
+    height: 100px;
+    width: 230px;
+    padding-left: 35px;
+}
+.profile{
+    border-radius:25px;
+    width: 85px;
+    height: 45px;
+    border: 2px solid #816aa6;
+    text-align: center;
+    padding-top: 5px;
+    margin-right: 55px;
+    
+}
+.profile a{
+    color:black;
+}
+
+.search{
+    margin-left: 210px;
+    width: 255px;
+    border-radius:25px;
+    height: 45px;
+    border: 2px solid #816aa6;
+    text-align: center;
+    padding-top: 7px;
+    margin-right: 55px;
+}
+.search a{
+    color: #816aa6;
+    text-decoration: none;
+    border-right: 1px solid gray;
+    padding-left: 5px;
+    margin-right: 3px;
+}
+.searchmenu{
+    color: #816aa6;
+}
+#addguest{
+    border-right: none;
+}
+.hosting a{
+    text-decoration: none;
+    color: #816aa6;
+    padding-right: 30px;
+    padding-top: 300px;
+}
+.hosting{
+    padding-top: 10px;
+}
+footer{
+    border-top: 1px solid lightgray;
+   
+}
+.social-media i{
+    font-size: 25px; 
+    margin: 0 10px;
+}
+.footerlink a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+.placeDesc h4{
+    font-weight: 700;
+}
+.temp{
+    align-items: center;
+}
+.room{
+    display: flex;
+    flex-direction: row ;
+}
+.guest{
+    position: relative;
+    left: 50%;
+    transform: translateX(-47%);
+    margin-top: 25px;
+    display: block;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+.totalPrice{
+    font-weight: 800;
+}
+.priceMain{
+    border-radius: 15px;
+}
+.addressForm{
+    width: 50%;
+    flex-direction: column;
+}
+.addressForm input{
+    margin-top: 15px;
+    padding: 5px 10px;    
+}   
+.state input{
+    width: 48%;
+}
+.options{
+    text-align: left;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.noOfGuest{
+    flex-direction: column;
+}
+.options select{
+    padding: 5px;
+    /* border-radius: 15px; */
+}
+.amenity{
+    padding: 20px;
+    font-size: 56px;
+    border: 2px solid lightgrey;
+}
+.title input,.title textarea{
+    width: 500px;
+}
+.title textarea{
+    height: 120px;
+}
+.thankyou{
+    padding-bottom: 90px;
+}
+.signup{
+    width: 500px;
+    padding-left: 30px;
+}
+.homerooms{
+    font-size:larger;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.filter{
+    text-decoration: none;
+    color: black;
+}
+.filterborder{
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.buttonsign{
+    margin-left: 175px;
+}
+.signin{
+    color: black;
+    font-style: italic;
+    padding-left: 100px;
+}
+.signup{
+    margin-left: 125px;
+}
+.box{
+   border: solid 1px black;
+   margin: 10px 10px;
+   padding: 12px 12px;
+}
